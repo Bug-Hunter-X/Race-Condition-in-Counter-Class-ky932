@@ -1,0 +1,1 @@
+This repository demonstrates a common concurrency bug in Java: a race condition in a counter class. The Counter class uses a synchronized increment method, but the getCount method is not synchronized, leading to potential inconsistencies. The solution shows how to properly synchronize both methods to prevent race conditions.
